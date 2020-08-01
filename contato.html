@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1 class="alinhar-centro">Formulário de contato</h1>
+            <div class="linha alinhar-centro">
+                <label id="labelNome">Nome:</label>
+                <input required class="caixa-texto" type="text" id="textNome">
+            </div>
+            <div class="linha alinhar-centro">
+                <label id="labelSexo">Sexo:</label>
+                <label id="labelMasculino">Masculino</label>
+                <input type="radio" name="Sexo" id="radioMasculino">
+                <label id="labelFeminino">Feminino</label>
+                <input type="radio" name="Sexo" id="radioFeminino">
+            </div>
+            <div class="linha alinhar-centro">
+                <label id="labelEmail">E-mail:</label>
+                <input required class="caixa-texto" type="email" name="E-mail" id="texEmail">
+                <label id="labelTelefone">Telefone:</label>
+                <input class="caixa-texto" type="tel" name="telefone" id="texTelefone">
+            </div>
+            <div class="linha alinhar-centro">
+                <label id="labelCidade">Cidade:</label>
+                <input class="caixa-texto" type="text" name="Cidade" id="textCidade">
+                <label id="labelEstado">Estado</label>
+                <div class="selecao">
+                    <select name="Estado" id="selectEstado">
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="MG">MG</option>
+                        <option value="DF">DF</option>
+                    </select>
+                </div>
+            </div>
+            <div class="linha alinhar-centro">
+                <label id="Mensagem:" class="alinhar-top">Mensgem:</label>
+                <textarea required class="textarea" name="Mensagem" id="textareaMensagem" cols="30" rows="10"></textarea>
+            </div>
+            <div class="linha alinhar-centro">
+                <label id="labelNewsletter">Newsletter</label>
+                <input type="checkbox" name="Gostaria de receber a Newsletter da empresa" id="checkboxNewletter">
+                <label id="labelGostaria de receber a Newsletter da empresa">Gostaria de receber a Newsletter da
+                    empresa</label>
+            </div>
+            <div class="linha alinhar-centro">
+                <input class="botao" type="submit" value="Enviar">
+                <input class="botao" type="button" value="Excluir">
+            </div>
+            <a href="./index.html">Voltar pagina inicial </a>
+            <p>
+            <a href="./hobbies.html">Imagem </a>
+        </p>
+        </div>
+    </form>
+</body>
+</html>

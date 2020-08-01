@@ -1,0 +1,150 @@
+p {
+  text-align: justify;
+}
+.h1 {
+  background-color: black;
+  text-align: center;
+  font-style: italic;
+}
+.h3 {
+  background-color: unset;
+  text-decoration: underline;
+  font-weight: 100;
+}
+.diverso {
+  text-align: center;
+  background-color: blue;
+  text-align: center;
+}
+.a:hover {
+  background-color: black;
+}
+.perfil {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+.dados-pessoais {
+  background-color: rgba(245, 222, 179, 0.2);
+}
+.formacao {
+  background-color: rgba(100, 100, 190, 0.2);
+}
+.experiencia {
+  background-color: rgba(238, 130, 238, 0.2);
+}
+.perfil,
+.dados-pessoais,
+.formacao,
+.experiencia{
+  width: 960px;
+  padding: 30px;
+  border-style: dashed;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  .container-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/*
+Referenciando tags do html
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.fundo-imagem {
+  background-image: url("./../img/shutterstock_1422026900.jpg");
+  background-size: cover;
+}
+
+label {
+  font-weight: bold;
+}
+/*
+Referenciando classes do CSS
+*/
+.linha {
+  display: block;
+  padding: 5px;
+}
+
+.alinhar-centro {
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.alinhar-top {
+  vertical-align: top;
+}
+
+.caixa-texto {
+  border-radius: 6px;
+  border-style: groove;
+  width: 500px;
+  height: 20px;
+}
+.caixa-texto:focus {
+  background-color: yellow;
+}
+
+/*
+Referenciando o id
+*/
+#textCidade,
+#texTelefone {
+  width: 200px;
+}
+
+select {
+  border-style: none;
+  line-height: 20px;
+}
+.selecao {
+  display: inline;
+  border-radius: 6px;
+  border-style: groove;
+}
+.textarea {
+  border-radius: 6px;
+  border-style: groove;
+}
+
+.textarea:focus {
+  background-color: yellow;
+}
+
+.botao {
+  background: cadetblue;
+  border-style: outset;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 40px;
+  width: 100px;
+}
+.botao:hover {
+  background-color: teal;
+}
+.botao:active {
+  background-color: snow;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+  border-style: groove;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 14px 24px 49px 0px rgba(0, 0, 0, 0.98);
+  -moz-box-shadow: 14px 24px 49px 0px rgba(0, 0, 0, 0.98);
+  box-shadow: 14px 24px 49px 0px rgba(0, 0, 0, 0.98);
+}
+
+img:hover {
+  border-radius: 20px;
+}
